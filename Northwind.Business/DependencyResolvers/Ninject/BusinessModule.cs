@@ -3,15 +3,10 @@ using Northwind.Business.Abstract;
 using Northwind.Business.Concrete;
 using Northwind.DataAcces.Abstract;
 using Northwind.DataAcces.Concrete.EntityFramework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Northwind.Business.DependencyResolvers.Ninject
 {
-    public class BusinessModule:NinjectModule
+    public class BusinessModule : NinjectModule
     {
         public override void Load()
         {
